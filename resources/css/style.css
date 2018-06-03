@@ -1,0 +1,26 @@
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: Monoton, cursive;
+  color: white !important;
+  text-shadow:
+ -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+
+.image-container {
+  opacity: 0.7;
+
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
