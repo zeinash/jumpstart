@@ -5,6 +5,21 @@ html {
 
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
+
+.jumbotron-bike, .jumbotron-beer, .jumbotron-duffel, .jumbotron-flowers {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,8 +31,9 @@ html {
   -1px 1px 0 #000,
    1px 1px 0 #000;
    text-align: center;
-
 }
+
+
 
 h1 {
   font-family: 'Monoton', cursive;
