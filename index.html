@@ -34,21 +34,22 @@
     <!-- Header -->
     <nav class="navbar navbar-expand-sm navbar-header fixed-top">
 
-      <!-- Menu -->
+      <!-- Collapsible Hamburger -->
       <button class="navbar-toggler navbar-toggle collapsed
 " type="button" data-toggle="collapse" href="#collapse1" data-target="#collapsingNavbarXs" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
           <span class="navbar-toggler-icon fas fa-bars"></span>
       </button>
 
+      <!-- Menu Items -->
       <div class="navbar-collapse collapse" id="collapsingNavbarXs">
         <ul class="nav navbar-nav collapse navbar-collapse" data-target="#collapse1">
-            <li class="nav-item mr-auto">
+            <li class="nav-item">
               <a class="active nav-link" href="#">Explore</a>
             </li>
-            <li class="nav-item mr-auto">
+            <li class="nav-item">
               <a href="#" class="nav-link">Start a Project</a>
             </li>
-            <li class="nav-item mr-auto">
+            <li class="nav-item">
               <a href="#" class="nav-link">About Us</a>
             </li>
         </ul>
@@ -63,14 +64,14 @@
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-bike">
       <h1>Get Going.</h1>
-      <p class="center-block">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+      <p class="mx-auto">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
       <button type="button" name="Jump In" class="btn-primary btn-lg">Jump In</button>
     </div>
 
     <!-- Featured Section -->
     <section class="container">
       <h2>Featured project</h2>
-      <div class="row container center-block">
+      <div class="row container mx-auto">
         <div class="col-md-12 col-sm-12 col-lg-6">
             <div class="image-container">
               <img src="./resources/images/featured-project.png" alt="Image of old wooden house">
@@ -106,50 +107,52 @@
         </div>
       </div>
 
-      <div class="row">
-
-      </div>
-
     </section>
 
     <!-- Projects -->
     <section class="container" id="projects">
       <h2>Projects</h2>
-      <div id="projects" class="row">
-          <div class="project one col-lg-4 col-sm-12">
-            <div class="image-container">
+      <div id="project-container" class="row mx-auto">
+          <div class="pl-md-0 d-md-flex d-lg-block project one col-lg-4 col-sm-12 row">
+            <div class="image-container col-md-5 col-lg-12">
               <img src="./resources/images/project1.png" alt="Image of girl in black tights">
             </div>
-            <h3>The Right Tights</h3>
-            <span>by Riley Mae</span>
-            <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
+            <div class="txtgroup col-md-7 col-lg-12">
+              <h3>The Right Tights</h3>
+              <span>by Riley Mae</span>
+              <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
+            </div>
           </div>
 
-          <div class="project two col-lg-4 col-sm-12">
-            <div class="image-container">
+          <div class="pl-md-0 d-md-flex d-lg-block project two col-lg-4 col-sm-12 row">
+            <div class="image-container col-md-5 col-lg-12">
               <img src="./resources/images/project2.png" alt="Home Interior">
             </div>
-            <h3>Peppermint Smart Home</h3>
-            <span>by Brian McDonald</span>
-            <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
+            <div class="txtgroup col-md-7 col-lg-12">
+              <h3>Peppermint Smart Home</h3>
+              <span>by Brian McDonald</span>
+              <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
+            </div>
           </div>
 
-          <div class="project three col-lg-4 col-sm-12">
-            <div class="image-container">
+          <div class="pl-md-0 d-md-flex d-lg-block project three col-lg-4 col-sm-12 row">
+            <div class="image-container col-md-5 col-lg-12">
               <img src="./resources/images/project3.png" alt="Neon Sign on Sidewalk">
             </div>
-            <h3>American Streetlife</h3>
-            <span>by Patrick Wallace</span>
-            <p>I've been traveling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
+            <div class="txtgroup col-md-7 col-lg-12">
+              <h3>American Streetlife</h3>
+              <span>by Patrick Wallace</span>
+              <p>I've been traveling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
+            </div>
           </div>
       </div>
     </section>
 
     <!-- Having Trouble -->
-    <footer class="container-fluid">
-        <strong class="center-block">Having trouble thinking of an idea?</strong>
-        <p class="center-block">Inventorsâ€™ block strikes at the worst times. But thatâ€™s all changed with Jumpstartâ€™s Good Idea Generator Lite (GIGLi).</p>
-        <button type="button" name="Learn More" class="center-block btn-primary btn-lg">Learn More</button>
+    <footer class="container-fluid d-flex flex-column align-items-center">
+        <strong>Having trouble thinking of an idea?</strong>
+        <p>Inventors' block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator Lite (GIGLi).</p>
+        <button type="button" name="Learn More" class="btn-primary btn-lg">Learn More</button>
     </footer>
 
     <!-- Jquery -->

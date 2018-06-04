@@ -33,6 +33,7 @@ h2 {
 h3 {
   font-size: 1.3rem;
   font-weight: bold;
+  margin-top: 1.42rem;
 }
 
 .jumbotron p {
@@ -141,10 +142,21 @@ strong {
 }
 
 footer p {
-  width: 42rem;
+  max-width: 42rem;
   text-align: center;
 }
-@media only screen AND (Max-width:1200px) {
+
+@media only screen AND (max-width: 993px) {
+  .project {
+    margin-top: 2rem;
+  }
+
+  .project.one {
+    margin-top: 0;
+  }
+
+@media only screen AND (max-width: 900px) {
+
   div.container {
     width: 35.7rem;
   }
@@ -152,6 +164,8 @@ footer p {
   h2 {
     text-align: center;
   }
+
+
 }
 
 @media only screen AND (max-width: 768px) {
@@ -164,4 +178,31 @@ footer p {
     max-width: 90%;
     line-height: 1.7rem;
   }
+
+  div.container, section.container {
+    width: 90%;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  .project {
+    margin-top: 2rem;
+  }
+
+  .project.one {
+    margin-top: 0;
+  }
+
+  #projects {
+    width: 100%;
+  }
+
+  #project-container {
+    width: 90%;
+  }
+
+  footer p {
+    max-width: 90%;
+  }
+
 }
