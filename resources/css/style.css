@@ -1,26 +1,127 @@
+html {
+  font-size: 14px;
+  font-family: 'Open Sans';
+}
+
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-h1 {
-  font-family: Monoton, cursive;
+  padding: 11.85rem 0;
   color: white !important;
   text-shadow:
  -1px -1px 0 #000,
   1px -1px 0 #000,
   -1px 1px 0 #000,
    1px 1px 0 #000;
+   text-align: center;
+
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+   text-transform: lowercase;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 1.42rem;
+  color: #399bd1;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  width: 51.3rem;
+  letter-spacing: 0.08rem;
+}
+.jumbotron h1 {
+  font-size: 7.1rem;
+}
+
+button {
+  padding: 1.3rem;
+  width: 11.4rem;
+  margin-top: 2.8rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5)
+}
+
+.jumbotron button:hover {
+  box-shadow: 0 0 12px rgba(0,0,0,0.9)
+}
+
+.jumbotron button:active {
+  box-shadow: 0 0 0 rgba(0,0,0, 0.5)
 }
 
 .image-container {
   opacity: 0.7;
-
 }
 
 .image-container img {
   width: 100%;
   height: auto;
+}
+
+a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: darkgrey;
+  padding: 0 1rem;
+}
+
+.active {
+  color: #399bd1;
+}
+
+.navbar-brand {
+  padding-right: 2rem;
+}
+
+.empty {
+  display: block;
+}
+
+.col-lg-6 {
+  padding: 0;
+}
+
+.container {
+  padding: 0;
+}
+
+#projects {
+  margin-bottom: 5.85rem;
+}
+
+footer.container-fluid {
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+  margin: 0;
+}
+
+strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 1.4rem;
+  text-align: center;
+}
+
+footer p {
+  width: 42rem;
+  text-align: center;
+}
+@media only screen AND (Max-width:1200px) {
+  div.container {
+    width: 35.7rem;
+  }
+
+  h2 {
+    text-align: center;
+  }
 }

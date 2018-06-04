@@ -28,48 +28,45 @@
   <body>
 
     <!-- Header -->
-    <nav class="navbar navbar-default navbar-fixed-top container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg">
 
       <!-- Menu -->
-      <div class="navbar-left">
+      <div class="navbar-left navbar-text">
           <a class="active">Explore</a>
           <a>Start a Project</a>
           <a>About Us</a>
       </div>
 
       <!-- Logo -->
-      <div class=" navbar-brand navbar-right">
+      <div class="navbar-brand navbar-right">
         <img src="./resources/images/logo.png" alt="jumpstart logo">
       </div>
     </nav>
 
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-bike">
-      <h1>Get Going</h1>
-      <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+      <h1>Get Going.</h1>
+      <p class="center-block">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+      <button type="button" name="Jump In" class="btn-primary btn-lg">Jump In</button>
     </div>
 
     <!-- Featured Section -->
-    <section>
+    <section class="container">
       <h2>Featured project</h2>
-      <div class="row">
-        <div class="empty col-lg-3"></div>
-        <div class="col-lg-6 col-sm-12">
+      <div class="row container center-block">
+        <div class="col-md-12 col-sm-12 col-lg-6">
             <div class="image-container">
               <img src="./resources/images/featured-project.png" alt="Image of old wooden house">
             </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="empty col-lg-3"></div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-md-6 col-sm-12 col-lg-3">
           <h3>DeFrost: A Documentary</h3>
           <span>by Leo De Firenze</span>
           <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing â€” her family, friends, pets, and eventual depature from a freezing valley in Northern Italy â€” through beautiful cinematography and narration.</p>
         </div>
 
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-md-6 col-sm-12 col-lg-3">
           <h3>Product Categories</h3>
           <ul>
             <li>Art</li>
@@ -92,10 +89,14 @@
         </div>
       </div>
 
+      <div class="row">
+
+      </div>
+
     </section>
 
     <!-- Projects -->
-    <section>
+    <section class="container" id="projects">
       <h2>Projects</h2>
       <div id="projects" class="row">
           <div class="project one col-lg-4 col-sm-12">
@@ -127,10 +128,11 @@
       </div>
     </section>
 
-    <footer>
-        <strong>Having trouble thinking of an idea?</strong>
-        <p>Inventorsâ€™ block strikes at the worst times. But thatâ€™s all changed with Jumpstartâ€™s Good Idea Generator Lite (GIGLi).</p>
-        <button type="button" name="button">Learn More</button>
+    <!-- Having Trouble -->
+    <footer class="container-fluid">
+        <strong class="center-block">Having trouble thinking of an idea?</strong>
+        <p class="center-block">Inventorsâ€™ block strikes at the worst times. But thatâ€™s all changed with Jumpstartâ€™s Good Idea Generator Lite (GIGLi).</p>
+        <button type="button" name="Learn More" class="center-block btn-primary btn-lg">Learn More</button>
     </footer>
 
     <!-- Jquery -->
